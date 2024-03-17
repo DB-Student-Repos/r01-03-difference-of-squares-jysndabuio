@@ -27,5 +27,8 @@ pub fn difference(n: u32) -> u32 {
         sum_of_squares += x*x;
     }
     return square_of_sum - sum_of_squares;
+
+    // Is it possible to call the other function instead of rewriting?
+    // square_of_sum() - sum_of_squares() ??
 }
 
